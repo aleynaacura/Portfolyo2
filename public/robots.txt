@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://curastudio.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Block nothing - all content is public

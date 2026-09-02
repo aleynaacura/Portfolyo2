@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0f"/>
+      <stop offset="50%" stop-color="#17171a"/>
+      <stop offset="100%" stop-color="#26262a"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05" stroke="#fb923c" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/>
+    <line x1="40" y1="0" x2="40" y2="630"/>
+    <line x1="80" y1="0" x2="80" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="160" y1="0" x2="160" y2="630"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="280" y1="0" x2="280" y2="630"/>
+    <line x1="320" y1="0" x2="320" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="440" y1="0" x2="440" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="520" y1="0" x2="520" y2="630"/>
+    <line x1="560" y1="0" x2="560" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="640" y1="0" x2="640" y2="630"/>
+    <line x1="680" y1="0" x2="680" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="760" y1="0" x2="760" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="880" y1="0" x2="880" y2="630"/>
+    <line x1="920" y1="0" x2="920" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1040" y1="0" x2="1040" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+    <line x1="1120" y1="0" x2="1120" y2="630"/>
+    <line x1="1160" y1="0" x2="1160" y2="630"/>
+    <line x1="1200" y1="0" x2="1200" y2="630"/>
+  </g>
+
+  <!-- Glow orbs -->
+  <circle cx="200" cy="150" r="120" fill="#f97316" opacity="0.1" filter="url(#glow)"/>
+  <circle cx="1000" cy="500" r="140" fill="#dc2626" opacity="0.1" filter="url(#glow)"/>
+
+  <!-- Flame icon -->
+  <g transform="translate(600, 180) scale(2.5)" filter="url(#glow)">
+    <path d="M0 -20c0 12-12 15-12 27 0 6 3 12 12 12s12-6 12-12c0-6-3-9-6-12 0 6-3 9-6 9 0-9 0-15 0-24z" fill="url(#flame)"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="72" font-weight="700" fill="#f6f6f7" letter-spacing="4">
+    CURA<tspan fill="url(#text)">STUDIO</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#9f9fa4" letter-spacing="2">
+    3D Sanatçı &amp; Oyun Geliştirici
+  </text>
+
+  <!-- Tags -->
+  <g transform="translate(600, 460)">
+    <rect x="-280" y="0" width="120" height="36" rx="18" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.4"/>
+    <text x="-220" y="23" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#fb923c">3D Modelleme</text>
+
+    <rect x="-140" y="0" width="100" height="36" rx="18" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.4"/>
+    <text x="-90" y="23" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#fb923c">Animasyon</text>
+
+    <rect x="-20" y="0" width="130" height="36" rx="18" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.4"/>
+    <text x="45" y="23" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#fb923c">Oyun Geliştirme</text>
+
+    <rect x="140" y="0" width="100" height="36" rx="18" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.4"/>
+    <text x="190" y="23" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#fb923c">AI &amp; LLM</text>
+  </g>
+
+  <!-- Awards -->
+  <text x="600" y="540" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#76767c">
+    Autodesk &amp; BTK Akademi Ödüllü Sanatçı
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="580" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#47474d">
+    curastudio.com
+  </text>
+</svg>
